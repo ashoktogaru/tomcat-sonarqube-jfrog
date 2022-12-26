@@ -8,10 +8,10 @@
   <name>01-maven-web-app</name>
   <url>http://maven.apache.org</url>
   <properties>
-  <sonar.organization>azuredevo-1</sonar.organization>
+  <sonar.organization>bharat1016</sonar.organization>
   <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   <sonar.productkey>ashok1016</sonar.productkey>
-  <sonar.login>3146f08c6be0168602832bf1efb5746e8b346d27</sonar.login>
+  <sonar.login>dfa00b58b25559c3d0702787fe9e5bd4c68557eb</sonar.login>
   </properties>
  <distributionManagement>
     <repository>
