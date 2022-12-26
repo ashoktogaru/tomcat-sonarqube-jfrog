@@ -17,7 +17,7 @@
     <repository>
         <id>libs-snapshot-local</id>
         <name>libs-snapshot-local</name>
-        <url>https://sumanthcts.jfrog.io/artifactory/libs-snapshot-local//</url>
+        <url>https://ashok1016.jfrog.io/artifactory/libs-snapshot-local/</url>
     </repository>
 </distributionManagement>
   <dependencies>
