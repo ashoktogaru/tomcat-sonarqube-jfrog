@@ -8,9 +8,7 @@ pipeline {
 
          stage('Stage-0 : SonarQube analysis') { 
              steps {
-                 withSonarqubeEnv('sonarqube') {
                  sh 'mvn clean verify sonar:sonar -DskipTests'
-             }
            }
          }
 
