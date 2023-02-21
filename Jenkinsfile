@@ -6,10 +6,12 @@ pipeline {
     }
     stages {
 
-         stage('Stage-0 : Static Code Analysis Using SonarQube') { 
+         stage('Stage-0 : SonarQube analysis') { 
              steps {
+                 withSonarqubeEnv('sonarqube') {
                  sh 'mvn clean verify sonar:sonar -DskipTests'
              }
+           }
          }
 
         stage('Stage-1 : Clean') { 
